@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <header></header>
+  <section>
+    <h1>Contact Us</h1>
+  <main>
+  <body>
+    <form action="formPost.html">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fullName"> Name:</label>
+        <input type="text" id="fullName" name="fullName" />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br /><br />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="student">Are you a student?</label>
+        <input
+          type="radio"
+          id="student"
+          name="Are you a student?"
+          value="Yes"
+          checked
+        />
+        Yes
+        <input type="radio" id="student" name="Are you a student?" value="No" />
+        No
+         <br /><br />
+        <label for="year">Year?</label>
+        <select name="Year" id="year">
+          <option value="Freshman">Freshman</option>
+          <option value="Sophomore">Sophomore</option>
+          <option value="Junior">Junior</option>
+          <option value="Senior">Senior</option>
+        </select>
+        <br /><br />
+        <label for="enjoyment">Enjoyment Range?</label>
+        <br />
+        1 (hate it)
+        <input type="range" id="enjoyment" min="1" max="5" />
+        5 (loved it)
+        <br /><br />
+        <label for="textarea">Comments?</label>
+        <textarea name="comments" id="textarea"></textarea>
+      </fieldset>
+      <label for="submit">Submit Form</label>
+      <input type="submit" id="submit " />
+    </form>
+  </body>
+  </main>
+  <footer>&copy; 2026 Mya DeBoer</footer>
+</html>
